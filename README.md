@@ -1,4 +1,74 @@
 # academia-bd
+
+Atividade – Mini Mundo (Sistema de Academia)
+
+Este trabalho tem como objetivo apresentar o mini mundo e a modelagem textual do sistema de uma academia, de acordo com os requisitos da atividade solicitada.
+
+Mini Mundo – Sistema de Academia
+
+Uma academia oferece diversas modalidades de treino, como musculação, dança, funcional e alongamento. Cada aluno pode se matricular em uma ou várias modalidades, mediante pagamento mensal. A academia possui professores, cada um responsável por uma ou mais turmas.
+Além disso, cada aluno recebe um plano de treino personalizado, montado pelo professor, contendo exercícios, séries e repetições.
+
+O sistema deve armazenar:
+
+Dados dos alunos (nome, endereço, contato, data de nascimento, CPF).
+
+Modalidades oferecidas pela academia.
+
+Professores e suas especialidades.
+
+Turmas (horário, modalidade, professor responsável).
+
+Matrículas dos alunos nessas turmas.
+
+Pagamentos mensais.
+
+Planos de treino individuais.
+
+
+Entidades Identificadas
+
+1. Aluno
+
+
+2. Professor
+
+
+3. Modalidade
+
+
+4. Turma
+
+
+5. Matrícula
+
+
+6. Pagamento
+
+
+7. PlanoTreino
+
+
+8. Exercicio
+
+
+9. ItemTreino
+
+
+
+Descrição das Entidades
+
+Aluno: Armazena informações pessoais dos alunos.
+Professor: Registra os professores e suas especialidades.
+Modalidade: Define as atividades oferecidas pela academia.
+Turma: Representa uma modalidade em horário específico.
+Matrícula: Liga o aluno a uma turma.
+Pagamento: Registra pagamentos dos alunos.
+PlanoTreino: Plano individual criado pelo professor.
+Exercicio: Lista de exercícios disponíveis.
+ItemTreino: Liga exercícios ao plano do aluno.
+
+
 Repositório criado para entrega da atividade da faculdade de Modelagem de Banco de Dados.
 CREATE DATABASE academia;
 USE academia;
